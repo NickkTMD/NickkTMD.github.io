@@ -7,16 +7,16 @@
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "default", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "David Florian"
+title                    : "Nicholas Gebo"
 title_separator          : "-"
-subtitle                 : "Example Website for Class"
-name                     : &name "David Florian" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
-url                      : https://davidflorianjr.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "Engineer. Birdwatcher. Philosopher. Stargazer."
+name                     : &name "Nicholas Gebo" # &name is a YAML anchor which can be *referenced later
+description              : &description "The untold story"
+url                      : https://nickktmd.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -97,16 +97,16 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "assets/img/David_Headshot_web2.jpg"
-  bio              : "An engineer with a passion for teaching "
-  location         : "Nashville, TN"
+  avatar           : "assets/img/Nick_Headshot.jpg"
+  bio              : "As a young child, Nicholas unveiled unparalleled brilliance, mastering fields effortlessly. His prodigious mind, a beacon of intellect, harmoniously embraced a fascination for bird watching—a delightful dalliance adding a touch of whimsy to his extraordinary existence."
+  location         : "109 21st Ave South, Nashville, TN, Room 340F\nI sleep from 11pm-7am"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+      url: "https://github.com/NickkTMD"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://www.twitter.com/gebo_nick"
 
 
 # Site Footer
@@ -115,9 +115,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://www.twitter.com/gebo_nick"
 
 
 # Reading Files
