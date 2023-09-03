@@ -84,7 +84,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.instagram.com/dr.dflo"
+    - "https://www.twitter.com/gebo_nick"
 
 # Analytics
 analytics:
@@ -98,15 +98,13 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/Nick_Headshot.jpg"
-  bio              : "As a young child, Nicholas unveiled unparalleled brilliance, mastering fields effortlessly. His prodigious mind, a beacon of intellect, harmoniously embraced a fascination for bird watching—a delightful dalliance adding a touch of whimsy to his extraordinary existence."
-  location         : "109 21st Ave South, Nashville, TN, Room 340F\nI sleep from 11pm-7am"
+  bio              : "As a young child, Nicholas unveiled unparalleled brilliance. He learned to speak english at age 6 and learned to read it at age 12. Just kidding. He still can't read."
+  location         : "109 21st Ave South, Nashville, TN\nRoom 340F\n I sleep T/R 11pm-7am"
+  twitter: "gebo_nick"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/NickkTMD"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://www.twitter.com/gebo_nick"
 
 
 # Site Footer
@@ -114,7 +112,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
+      url: "https://github.com/NickkTMD"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://www.twitter.com/gebo_nick"

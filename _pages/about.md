@@ -1,31 +1,30 @@
 ---
 
-title: "About David Florian"
+title: "About Nicholas Gebo"
 
 ---
 
+Nick prides himself on his hyper-specialized skill set. His most prominent fields of expertise are Minecraft modding and brain-computer interfaces, but he is working on additive manufacturing too. 
+
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
-
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BS. Computer Science (expected Dec 2023)
+
+## Work Experience
+
+* Operations Engineering Intern, Neuralink, *May-Aug 23*
+  * Write code to help make brain computer interfaces
+* Founder, Havoc Games, *2013-present*
+  * Write code to add stuff to Minecraft
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Nick can *allegedly* operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. Nick has experience with the following additive manufacturing technologies:
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* Computer Aided Design (CAD)
+* 3D Printing
 
-## Press 
+## Awards 
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
-
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+Nick competed in [The Sandbox Game](https://www.sandbox.game/en/)'s *The Walking Dead Game Jam*, placing 2nd out of 800 entries, winning a prize of USD $240,000. [Award Show](https://www.youtube.com/watch?v=X35h-ehbiRU).
