@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "A 1 kg/hr pellet extruder and 1 cubic meter build envelope for printing furniture."
+excerpt: "This syringe pump does everything you'd want it to, and some things you wouldn't."
 header:
   image: /assets/img/syringe_pump_header.png
   teaser: /assets/img/syringe_pump.png
@@ -20,7 +20,7 @@ The Syringe Pump design aims to provide a precise and consistent method for deli
 
 ## Off-the-Shelf Parts Required
 
-## Real Parts List
+## Non Printed Parts List
 
 | Item                                      | Qty  |
 |-------------------------------------------|------|
