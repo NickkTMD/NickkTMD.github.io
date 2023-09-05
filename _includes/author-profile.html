@@ -28,7 +28,24 @@
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
-          <span itemprop="name" class="p-locality">{{ author.location | newline_to_br }}</span>
+          <!-- <span itemprop="name" class="p-locality">{{ author.location | newline_to_br }}</span> -->
+
+          <span itemprop="name" class="p-locality" style="width: 200px"></span>
+
+          <script>
+            const url = "https://sam-get-location.nisala.workers.dev/?ppassword=akldsjfklajldkfjlkaadsf&key=location";
+            const pLocalityElement = document.querySelector(".p-locality");
+    
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    const formattedData = data.replace(/\n/g, "<br>");
+                    pLocalityElement.innerHTML = formattedData;
+                })
+                .catch(error => {
+                    console.error("Error fetching data:", error);
+                });
+          </script>
         </li>
       {% endif %}
 
