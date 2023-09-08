@@ -32,15 +32,43 @@
 
           <span itemprop="name" class="p-locality" style="width: 200px"></span>
 
+          <!-- Link icon -->
+          <a href="" class="google-maps-link">
+            <i class="fas fa-fw fa-link" aria-hidden="true"></i>
+            Google Maps (direct)
+          </a>
+
+          <a href="" class="google-maps-link-sword">
+            <i class="fas fa-fw fa-link" aria-hidden="true"></i>
+            Google Maps <br/>(stop at sword shop on the way)
+          </a>
+
+          <div> </div>
+
           <script>
             const url = "https://sam-get-location.nisala.workers.dev/?ppassword=akldsjfklajldkfjlkaadsf&key=location";
             const pLocalityElement = document.querySelector(".p-locality");
+            const link = document.querySelector('.google-maps-link');
+            const linkSword = document.querySelector('.google-maps-link-sword');
     
             fetch(url)
                 .then(response => response.text())
                 .then(data => {
                     const formattedData = data.replace(/\n/g, "<br>");
                     pLocalityElement.innerHTML = formattedData;
+
+                    const latRegex = /Latitude:\s*(-?\d+\.\d+)/;
+                    const lngRegex = /Longitude:\s*(-?\d+\.\d+)/;
+
+                    const latMatch = data.match(latRegex);
+                    const lngMatch = data.match(lngRegex);
+
+                    const latitude = parseFloat(latMatch[1]);
+                    const longitude = parseFloat(lngMatch[1]);
+
+                    link.href  = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`;
+
+                    linkSword.href = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}&waypoints=Jalic Blades, 2011 Dayton Blvd, Chattanooga, TN 37415`;
                 })
                 .catch(error => {
                     console.error("Error fetching data:", error);
