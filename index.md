@@ -14,6 +14,10 @@ feature_row:
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "Crafted predominantly from 3D-printed components, this syringe pump does everything you'd want it to, and some things you wouldn't."
+  - image_path: assets/img/bike_phone_mount_tn.png
+    alt: "Bike Phone Mount"
+    title: "Bike Phone Mount"
+    excerpt: "Because my little brother wanted to watch Bakugan while riding his bike (no training wheels)."
 ---
 
 {% include feature_row %}
