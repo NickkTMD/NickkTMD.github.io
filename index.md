@@ -10,6 +10,10 @@ header:
       url: "/portfolio/"
 excerpt: "Nicholas Gebo is an engineer with a heart of gold. His area of expertise would be listed, but it would be quicker to list the few things he has yet to master: Sculpting, Line Dancing, and of course, Kung Fu."
 feature_row:
+  - image_path: assets/img/skateboard_tn.png
+    alt: "Electric Skateboard Truck & Deck"
+    title: "Electric Skateboard Truck & Deck"
+    excerpt: "This skateboard is electric."
   - image_path: assets/img/microfluidic_tn.png
     alt: "Microfluidic Mixer"
     title: "Microfluidic Mixer"
